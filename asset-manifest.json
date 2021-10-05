@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/asaf-dulman-04-10-21/static/css/main.dd8cb956.chunk.css",
+    "main.js": "/asaf-dulman-04-10-21/static/js/main.2e6a6813.chunk.js",
+    "main.js.map": "/asaf-dulman-04-10-21/static/js/main.2e6a6813.chunk.js.map",
+    "runtime-main.js": "/asaf-dulman-04-10-21/static/js/runtime-main.bc2fe38c.js",
+    "runtime-main.js.map": "/asaf-dulman-04-10-21/static/js/runtime-main.bc2fe38c.js.map",
+    "static/js/2.e11ef315.chunk.js": "/asaf-dulman-04-10-21/static/js/2.e11ef315.chunk.js",
+    "static/js/2.e11ef315.chunk.js.map": "/asaf-dulman-04-10-21/static/js/2.e11ef315.chunk.js.map",
+    "static/js/3.045c652c.chunk.js": "/asaf-dulman-04-10-21/static/js/3.045c652c.chunk.js",
+    "static/js/3.045c652c.chunk.js.map": "/asaf-dulman-04-10-21/static/js/3.045c652c.chunk.js.map",
+    "index.html": "/asaf-dulman-04-10-21/index.html",
+    "static/css/main.dd8cb956.chunk.css.map": "/asaf-dulman-04-10-21/static/css/main.dd8cb956.chunk.css.map",
+    "static/js/2.e11ef315.chunk.js.LICENSE.txt": "/asaf-dulman-04-10-21/static/js/2.e11ef315.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc2fe38c.js",
+    "static/js/2.e11ef315.chunk.js",
+    "static/css/main.dd8cb956.chunk.css",
+    "static/js/main.2e6a6813.chunk.js"
+  ]
+}
