@@ -1,0 +1,22 @@
+.error-message-modal-box {
+    background-color: red;
+    color: linen;
+    position: fixed;
+    top: 20px;
+    transform: translateY(-200%);
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+
+    &.open {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 400px) {
+    .error-message-modal-box {
+        width: 100%;
+        top: 0px;
+    }
+}

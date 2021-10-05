@@ -1,0 +1,23 @@
+$primaryLightBlue: #24b1d9;
+$primaryDarkBlue: #03243d;
+$linkHoverColor: #7097aa;
+
+@import './pages/home';
+@import './pages/favorites';
+@import './components/navbar';
+@import './components/error-message-modal';
+@import './components/currentWeather';
+@import './components/dailyForecast';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}

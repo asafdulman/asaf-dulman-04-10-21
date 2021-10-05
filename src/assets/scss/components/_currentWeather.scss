@@ -1,0 +1,86 @@
+.app {
+    .home-box {
+        .current-weather-box {
+            text-align: center;
+            border-bottom: 1px solid $primaryLightBlue;
+            border-top: 1px solid $primaryLightBlue;
+            padding-bottom: 20px;
+            width: 230px;
+            position: relative;
+            
+            .favorite-icon {
+                position: absolute;
+                left: 0px;
+                top: 0;
+                color: gold;
+                font-size: 30px;
+            }
+            
+            h1 {
+                font-size: 40px;
+                color: $primaryLightBlue;
+            }
+
+            p {
+                color: #666666;
+            }
+
+            button {
+                padding: 5px 15px;
+                border-radius: 5px;
+                font-family: "Poppins", sans-serif;
+                border: none;
+                color: $primaryLightBlue;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    color: $primaryDarkBlue;
+                }
+            }
+        }
+    }
+}
+
+.dark-app {
+    .home-box {
+        .current-weather-box {
+            text-align: center;
+            border-bottom: 1px solid #fff;
+            border-top: 1px solid #fff;
+            padding-bottom: 20px;
+            width: 230px;
+            position: relative;
+
+            .favorite-icon {
+                position: absolute;
+                left: 0px;
+                top: 0;
+                color: gold;
+                font-size: 30px;
+            }
+
+            h1 {
+                font-size: 40px;
+                color: $primaryLightBlue;
+            }
+
+            p {
+                color: #666666;
+            }
+
+            button {
+                padding: 5px 15px;
+                border-radius: 5px;
+                font-family: "Poppins", sans-serif;
+                border: none;
+                background-color: $primaryLightBlue;
+                color: #fff;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    color: $primaryDarkBlue;
+                }
+            }
+        }
+    }
+}

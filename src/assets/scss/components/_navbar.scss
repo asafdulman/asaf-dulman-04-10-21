@@ -1,0 +1,109 @@
+.app {
+    .nav-bar-box {
+        padding: 20px 30px;
+        background-color: #ececec;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 4px 0 #0e8d9b;
+        transition: all 0.2s ease-in-out;
+
+        .logo-box {
+            color: $primaryDarkBlue;
+        }
+
+        a {
+            margin: 10px;
+            text-decoration: none;
+            color: $primaryLightBlue;
+            font-size: 18px;
+            transition: all 0.2s ease;
+
+            &:hover {
+                color: $linkHoverColor;
+            }
+
+            &.active {
+                color: $primaryDarkBlue;
+                text-decoration: underline;
+                font-size: 20px;
+            }
+        }
+
+        button {
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-family: "Poppins", sans-serif;
+            transition: all 0.3s ease;
+            border: 1px solid $primaryLightBlue;
+
+            &:hover {
+                background-color: $primaryLightBlue;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.dark-app {
+    .nav-bar-box {
+        padding: 20px 30px;
+        background-color: $primaryDarkBlue;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0 2px 4px 0 lightgray;
+        transition: all 0.2s ease-in-out;
+
+        .logo-box {
+            color: $primaryLightBlue;
+        }
+
+        a {
+            margin: 10px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            transition: all 0.2s ease;
+
+            &:hover {
+                color: $linkHoverColor;
+            }
+
+            &.active {
+                color: lightgray;
+                text-decoration: underline;
+                font-size: 20px;
+            }
+        }
+
+        button {
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-family: "Poppins", sans-serif;
+            transition: all 0.3s ease;
+            background-color: $primaryLightBlue;
+            border: 1px solid $primaryLightBlue;
+
+            &:hover {
+                color: #000;
+                background-color: #fff;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .app,
+    .dark-app {
+        .nav-bar-box {
+            padding: 20px;
+            a {
+                font-size: 14px;
+
+                &.active {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,115 @@
+.app {
+    .home-box {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        position: relative;
+        transition: all 0.2s ease-in-out;
+
+        input {
+            border-radius: 25px;
+            border: 1px solid $primaryLightBlue;
+            padding: 15px;
+            width: 300px;
+            color: $primaryLightBlue;
+            outline: none;
+            font-size: 16px;
+
+            &:focus {
+                border: 1px solid #bbbcbd;
+            }
+        }
+
+        .search-cities-box {
+            position: relative;
+            background-color: #fff;
+            padding: 15px 30px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 350px;
+
+            .search-city-preview-box {
+                border: 1px solid $primaryLightBlue;
+                border-radius: 5px;
+                margin: 5px;
+                padding: 2px;
+                flex: 0 0 45%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    background-color: $primaryLightBlue;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.dark-app {
+    .home-box {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        position: relative;
+        background-color: #000;
+        transition: all 0.2s ease-in-out;
+
+        input {
+            border-radius: 25px;
+            border: 1px solid $primaryLightBlue;
+            padding: 15px;
+            width: 300px;
+            color: #fff;
+            outline: none;
+            font-size: 16px;
+            background-color: $primaryDarkBlue;
+
+            &:focus {
+                border: 1px solid $primaryLightBlue;
+            }
+        }
+
+        .search-cities-box {
+            position: relative;
+            background-color: #000;
+            padding: 15px 30px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 350px;
+
+            .search-city-preview-box {
+                border: 1px solid lightgray;
+                border-radius: 5px;
+                margin: 5px;
+                padding: 2px;
+                flex: 0 0 45%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+                background-color: $primaryDarkBlue;
+                color: $primaryLightBlue;
+
+                &:hover {
+                    background-color: $primaryLightBlue;
+                    color: #fff;
+                }
+            }
+        }
+
+        .current-weather-box {
+            p {
+                color: #666666;
+            }
+        }
+    }
+}
